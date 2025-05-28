@@ -1,76 +1,122 @@
-
 # VYBE
 
-VYBE is a party planning and ticketing application built with Django. It provides users with an easy platform to create events, sell tickets, and manage guest lists. Whether you're hosting a small gathering or a large event, VYBE streamlines the planning process.
+**VYBE** is a Django-based web application designed to help users discover, track, and analyze stocks using insider trading data, financial trends, and AI-powered insights. Whether you're a retail investor or a data enthusiast, VYBE gives you the tools to make smarter decisions in the stock market.
 
-## Features
+---
 
-- Event creation and management
-- Ticket purchasing and tracking
-- Guest list management
-- User authentication
-- Responsive design for mobile and desktop
+## 🚀 Features
 
-## Installation
+- 🔍 **Stock Discovery** – Find stocks with unusual insider activity or momentum signals.
+- 📊 **Trend Analysis** – View recent price movements and trend visualizations.
+- 🧠 **AI Insights** – Highlight potential buy/sell opportunities using machine learning models.
+- 🔐 **Admin Dashboard** – Manage users, stocks, and data ingestion through Django Admin.
+- 🗃️ **Database-Backed** – Persistent storage of financial data and user preferences.
+- 🔌 **Modular Design** – Easily integrate external APIs, custom models, or plugins.
 
-### Prerequisites
+---
 
-- Python 3.8 or higher
-- Django 3.2 or higher
+## 🧰 Installation
+
+### 📋 Prerequisites
+
+- Python 3.8 or higher  
+- Django 3.2 or higher  
 - pip (Python package installer)
 
-### Setup
+---
 
-1. Clone the repository:
+### ⚙️ Setup
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/vybe.git
    cd vybe
    ```
 
-2. Set up a virtual environment:
-   - **Windows:**
+2. **Set up a virtual environment**:
+   - **Windows**:
      ```bash
-     env\Scriptsctivate
+     python -m venv env
+     env\Scripts\activate
      ```
-   - **Linux/Mac:**
+   - **Linux/Mac**:
      ```bash
+     python3 -m venv env
      source env/bin/activate
      ```
 
-3. Install the required dependencies:
+3. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-### Database Configuration
+---
 
-1. Run migrations to set up the database:
+### 🗄️ Database Configuration
+
+1. **Apply database migrations**:
    ```bash
    python manage.py migrate
    ```
 
-2. Create a superuser (optional but recommended for accessing the admin interface):
+2. **Create a superuser (optional)**:
    ```bash
    python manage.py createsuperuser
    ```
 
-## Running the Server
+---
 
-1. Start the Django development server:
+## 💻 Running the Server
+
+1. **Start the development server**:
    ```bash
    python manage.py runserver
    ```
 
-2. Open your browser and navigate to:
+2. **Open in your browser**:
    ```
    http://127.0.0.1:8000/
    ```
 
-## Testing
+---
 
-To run tests, use the following command:
+## ✅ Testing
+
+To run all unit tests:
 ```bash
 python manage.py test
 ```
 
+---
 
+## 🤝 Contributing
+
+We welcome contributions from the community!  
+If you'd like to improve VYBE, please:
+
+1. Fork the repository  
+2. Create a feature branch (`git checkout -b feature-name`)  
+3. Commit your changes (`git commit -am 'Add new feature'`)  
+4. Push to the branch (`git push origin feature-name`)  
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
+For questions, feedback, or support, feel free to open an issue or contact [your-email@example.com](mailto:your-email@example.com).
+
+---
+
+## 🌟 Acknowledgments
+
+- Django Framework  
+- Alpha Vantage / Finnhub / IEX Cloud (optional financial APIs)  
+- Contributors and testers  
